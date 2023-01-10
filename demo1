@@ -1,0 +1,27 @@
+#Given the below class:
+class Cat:
+    species = 'mammal'
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def oldest(self):
+        if(cat1.age)>cat2.age and cat1.age>cat3.age:
+            return (f'The oldest cat {cat1.name} is {cat1.age} years old.')
+        elif cat2.age>cat1.age and cat2.age>cat3.age:
+            return (f'The oldest cat {cat2.name} is {cat2.age} years old.')
+        elif cat3.age>cat1.age and cat3.age>cat2.age:
+            return (f'The oldest cat {cat3.name} is {cat3.age} years old.')
+        
+
+
+# 1 Instantiate the Cat object with 3 cats
+cat1= Cat("tom",6)
+cat2 = Cat("jay",4)
+cat3 = Cat("kit",10)
+
+
+# 2 Create a function that finds the oldest cat
+
+print(cat3.oldest())
+
+# 3 Print out: "The oldest cat is x years old.". x will be the oldest cat age by using the function in #2
